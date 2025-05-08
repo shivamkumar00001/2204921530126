@@ -1,5 +1,5 @@
 const express = require('express');
-const axios = require('./node_modules/axios/index.d.cts');
+const axios = require('axios'); // Correct import
 const cors = require('cors');
 
 const app = express();
